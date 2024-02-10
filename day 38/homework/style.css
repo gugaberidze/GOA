@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Ypung Serif';
+    height: 210vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: hsl(30, 54%, 90%);
+}
+
+img{
+    width:100%;
+    border-radius: 10px;
+}
+b{
+    color: black;
+}
+h1{
+    font-size: 35px;
+    padding: 0 0 15px 0;
+}
+
+#img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    width:500px ;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+.preparation{
+    font-size: 13px;
+    padding: 20px 0;
+}
+.simple{
+    color:hsl(30, 10%, 34%);
+}
+
+.preparation{
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(334, 47%, 97%) ;
+    padding: 20px 0 20px 20px;
+    border-radius: 10px;
+}
+
+.preparation h4{
+    color: hsl(332, 51%, 32%);}.preparation ul{
+    padding: 15px  0 0 1rem;
+}
+.preparation li{
+    padding: 0 0 10px 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+
+
+.ingredients h2{
+    padding: 20px 0 ;
+    color: hsl(14, 45%, 36%);
+}
+.ingredients ul{
+    padding: 0 0 20px 20px;
+}
+.ingredients li{
+    padding: 0 10px 15px;
+    color:hsl(30, 10%, 34%) ;
+}
+
+
+.inst h2{
+    padding:20px 0  ;
+    color:hsl(14, 45%, 36%);
+}
+
+.inst ol{
+    padding: 0 0 20px 1rem;
+    color: hsl(30, 10%, 34%);
+}
+.inst li{
+    padding: 0 0 5px 20px;
+}
+
+
+.nutr h2{
+    color:hsl(14, 45%, 36%) ;
+    padding: 20px 0 20px 0 ;
+}
+
+.nutr p {
+    padding: 10px 0 10px;
+    color:hsl(30, 10%, 34%) ;
+}
+
+.nutr{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.nutr p span{
+    margin-left: 13rem;
+}
+span{
+    color: hsl(14, 45%, 36%);
+}
