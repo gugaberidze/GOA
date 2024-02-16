@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+body{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sign{
+    text-align: center;
+    justify-content: space-around;
+}
+
+button{
+
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 160px;
+    border-radius: 4px;
+
+}
+
+
+
+.p0{
+
+    font-size: 10px;
+    position: relative;
+    right: 55px ;
+    
+    
+}
+
+.p1{
+    font-size: 10px;
+    position: relative;
+    right:4% ;
+}
