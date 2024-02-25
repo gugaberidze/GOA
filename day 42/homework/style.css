@@ -1,0 +1,66 @@
+
+
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+
+
+.content{
+
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: animationbox;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    background-image: url(./guga.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+
+
+@keyframes animationbox{
+
+
+
+    20%{
+
+        border-radius: 100px;
+        background-color: red;
+        
+    }
+
+
+    50%{
+        transform: translatey(-100px);
+        border-radius: 200px;
+        background-color: blue;
+        box-shadow:0 0 50px blue;
+    }
+
+
+    100%{
+
+        
+        background-color: red;
+        
+
+    }
+
+
+
+
+
+
+}
